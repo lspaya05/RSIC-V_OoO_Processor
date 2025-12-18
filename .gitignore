@@ -55,7 +55,7 @@
 # Simulation Outputs
 # ========================
 /scripts/sim/work
-/scripts/sim/*.wlf
+/scripts/sim/waves/*.wlf
 /scripts/sim/transcript
 /scripts/sim/modelsim/vsim.wlf
 /scripts/sim/modelsim.ini
