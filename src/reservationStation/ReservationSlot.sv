@@ -4,11 +4,14 @@
 //Comment here...
 
 // Parameters:
-//      - BIT_WIDTH: 
-//      - ALU_OP_WIDTH:
-//      - TAG_WIDTH:
-//      - NUM_CDB: 
-//      - GATE_DELAY: 
+//      - BIT_WIDTH: The maximum # of bits an input/output value can hold.
+//      - ALU_OP_WIDTH: The number of bits the corresponding functional unit connected to the 
+//                      reservation station requires.
+//      - TAG_WIDTH: The maximum # of bits that a tag in the system can have.
+//      - NUM_CDB: The number of common data busses that the slot needs to listen to, so that it
+//                  can pull a value.
+//      - GATE_DELAY: The simulated gate delay, for certain parts of the slot. Not all of the slot
+//                  will have a gate delay.
 // Control IO: 
 //  Inputs:
 //      - wr: 1-bit signal to 'Write' to the slot. Loads up all the tags and values.
